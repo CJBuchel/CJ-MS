@@ -1,5 +1,5 @@
 {
-  "name": "@cjms_interfaces/admin",
+  "name": "@cjms_interfaces/match_control",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,7 @@
   "scripts": {
     "copy-env-file": "copyfiles -u 1 ../../.env ./.env",
     "build": "react-scripts build",
-    "start": "BROWSER=none PORT=3000 react-scripts start",
+    "start": "BROWSER=none PORT=2827 react-scripts start",
     "eject": "react-scripts eject"
   },
   "browserslist": {
